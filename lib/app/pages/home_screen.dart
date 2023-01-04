@@ -20,6 +20,7 @@ class HomeScreen extends StatelessWidget {
             const Spacer(),
             Text(
               AppLocalizations.of(context)?.helloUser ?? 'Hello User',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,
                 color: Theme.of(context).colorScheme.primary,
